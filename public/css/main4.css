@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+.navbar-brand{
+    font-family: 'Lobster', sans-serif;
+    padding-left: 1rem;
+    color: black;
+    font-size: 2rem;
+}   
+
+
+.navbar-brand:hover{
+    color: black
+}  
+
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.295) !important;
+}
+
+.nav-link:hover{
+    color: rgba(0, 0, 0, 0.562) !important;
+}
+
+.card{
+    margin-top: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.approve-button{
+    margin-right: 1rem;
+}

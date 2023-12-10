@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster') ;
+
+h1{
+    font-family: 'Lobster', sans-serif;
+}
+
+#sign-in-btn{
+    margin-right: 10px;
+}
+
+
+.card-img-top{
+    border: none !important;
+    border-radius: 0;
+}
+
+#hero{
+    padding-top: 15rem !important;
+    margin-bottom: 16rem;
+}
+
+.carousel-inner{
+    max-height: 30rem;
+}
+
+.carousel-item-active {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-inner{
+        max-height: 23rem;
+    }
+    .card-group{
+        display: flex;
+        flex-direction: column !important;
+    }
+  }

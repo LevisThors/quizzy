@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700') ;
+
+html{
+    display: flex;
+    justify-content: center;
+}
+body{
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif !important;
+    color: rgba(233, 233, 233, 0.836) !important;
+
+}
+
+form{
+    margin-top: 5rem;
+}
+.form-control{
+    margin-bottom: 1rem;
+}
+
+.answer-cont{
+    width: 100%;
+    color: rgba(255, 255, 255, 0.527);
+    width: 50%;
+    margin-left: auto;
+}
+#add-question-button{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: rgba(50, 209, 50, 0.493);
+}
